@@ -31,7 +31,7 @@ from utils import load_image, plot_sample
 from model.srgan import generator
 
 # Read the video from specified path 
-cam = cv2.VideoCapture("/content/Drama144p_input.3gp") 
+cam = cv2.VideoCapture("/content/test3_input.mp4") 
 fps = cam.get(cv2.CAP_PROP_FPS)
 print(fps)
 
@@ -135,7 +135,7 @@ fps = 20       #Put the fps value as your convenience or
                #Calculate by using (No. of frames)/Video_duration in seconds  
 
 #Creation of output video               
-out = cv2.VideoWriter('drama2_output.mp4',cv2.VideoWriter_fourcc(*'DIVX'), fps , size)
+out = cv2.VideoWriter('test3_output.mp4',cv2.VideoWriter_fourcc(*'DIVX'), fps , size)
 
 #Writing Frames into video
 for i in range(len(s_res)):

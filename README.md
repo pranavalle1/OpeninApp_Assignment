@@ -97,10 +97,6 @@ cam.release()
 cv2.destroyAllWindows()
 ```
 
-Here we have attatched a sample image that shows model implementation on an input frame-
-
-![Results](Results/Results.png)
-
 # STEP-5
 Run the Python codes given below to save the super resolved frames obtained in a folder and to store their output path in a list-
 
@@ -150,4 +146,4 @@ out.release()
 ```
 
 # Final Results - 
-
+Link to the final results

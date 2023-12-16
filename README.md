@@ -1,4 +1,4 @@
-# OpeninApp_Assignment
+# Video Enhancement using SRGAN
  AI model can enhance a video's quality by upscaling its resolution and reducing noise. In this project, I have used a pre-trained Super-Resolution Generative Adversarial Networks(SRGAN) model to perform Video enhancement using Single Image Super Resolution. The model takes a low-resolution video as input and provides a high-resolution video as output. The model has been validated in different genres of videos at different quality levels. It is done in 6 simple steps, including converting the input video into low-resolution frames and then converting the processed high-resolution frames into the output video.
 ## STEP-1
 Clone the following repository in your Notebook:-
